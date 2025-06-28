@@ -1,5 +1,5 @@
 
-function formatMessage(message, maxLength){
+/*function formatMessage(message, maxLength){
   if(message.length<=maxLength){
     return message;
   } 
@@ -10,6 +10,14 @@ function formatMessage(message, maxLength){
     }
      message = `${dize}...`;
     return message;
+  }
+}*/
+function formatMessage(message, maxLength){
+  if(message.length<=maxLength){
+    return message;
+  } 
+  else{ 
+   return message.slice(0,maxLength)+"...";
   }
 }
 
