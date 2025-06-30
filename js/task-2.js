@@ -13,7 +13,7 @@
   }
 }*/
 function formatMessage(message, maxLength){
-  if(message.length<=maxLength){
+  if(message.length<=maxLength-1){
     return message;
   } 
   else{ 
